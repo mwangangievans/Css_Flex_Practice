@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <!-- nav-right  -->
+        <div class="navbar-left">
+          <div class="navbar-brand">
+            <a href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+          <!-- end of nav-right  -->
+          <!-- nav-middle  -->
+          <div class="nav-links">
+            <p><a class="nav-item" href="#">Collections</a></p>
+            <p><a class="nav-item" href="#">Men</a></p>
+            <p><a class="nav-item" href="#">Women</a></p>
+            <p><a class="nav-item" href="#">Contact</a></p>
+          </div>
+          <!-- end of nav middle  -->
+        </div>
+
+        <!-- nav-right  -->
+        <div class="nav-right">
+          <div class="cart-icon">
+            <a href=""><img src="images/icon-cart.svg" alt="" /></a>
+          </div>
+          <div class="nav-avatar">
+            <a href=""
+              ><img class="img-avatar" src="images/image-avatar.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <!-- end of nav right  -->
+      </div>
+      <!-- end of navbar  -->
+
+      <!-- main content -->
+      <main class="main-content">
+        <!-- main image  -->
+        <div class="hero-image-section">
+          <div class="main-image">
+            <img class="hero-image" src="images/image-product-1.jpg" alt="" />
+          </div>
+          <div class="child-images">
+            <img
+              class="child-images-image"
+              src="images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="child-images-image"
+              src="images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="child-images-image"
+              src="images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="child-images-image"
+              src="images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- end of the main image  -->
+        <div class="description">
+          <h4 class="description__text">SNEAKER COMPANY</h4>
+          <h1 class="description__header">
+            Fall Limited Edition <br />
+            Sneakers
+          </h1>
+          <p class="description__desc">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="description__price">
+            <div class="description_initial">
+              <h2>$125.00</h2>
+              <h4 class="percentage">50%</h4>
+            </div>
+            <h5 class="description__before"><strike>$250.00</strike></h5>
+          </div>
+          <div class="description__button">
+            <div class="description__plus">
+              <div>
+                <button class="icon-images">
+                  <img src="images/icon-minus.svg" alt="" />
+                </button>
+              </div>
+              <p>0</p>
+              <div>
+                <button class="icon-images">
+                  <img src="images/icon-plus.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <div class="description__cart">
+              <button class="btn-cart">
+                <span class="btn-icon"
+                  ><svg
+                    width="22"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                      fill="#fff"
+                      fill-rule="nonzero"
+                    /></svg></span
+                >Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- end of main content -->
+    </div>
+    <!-- <div class="nav">
+      <div class="navbrand">
+        
+      </div>
+      <div class="nav-links">
+        <p><a href="#">Collections</a></p>
+        <p><a href="#">Men</a></p>
+        <p><a href="#">Women</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+      <div class="login">
+        <div class="cart-image">
+          
+        </div>
+        <div class="avatar">
+          
+        </div>
+      </div>
+    </div>
+    <main class="main-section">
+      <div class="main-images">
+        <div class="image-container">
+          
+        </div>
+      </div>
+      <div class="content">
+        <h4 class="sub-title"></h4>
+        <h2 class="main-title"></h2>
+        <div class="description">
+          <p></p>
+        </div>
+        <div class="price">
+          
+        </div>
+        <div class="discount">
+          
+        </div>
+      </div>
+    </main>
+  </div> -->
+
+    <!-- 0
+  Add to cart -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
